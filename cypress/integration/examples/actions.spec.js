@@ -40,7 +40,7 @@ context('Actions', () => {
       .focus()
       .should('have.class', 'focus')
       .prev()
-      .should('have.attr', 'style', 'color: orange;');
+      .should('have.attr', 'style', 'color: red;');
   });
 
   it('.blur() - blur off a DOM element', () => {
